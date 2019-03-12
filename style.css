@@ -1,0 +1,55 @@
+/*  Navbar */
+.quote {
+  background-color: #1c7aec;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+/* CTA */
+.cta {
+  background-color: #07367d;
+}
+
+.cta_text {
+  color: #fff;
+}
+
+.cta_button {
+  background-color: #fff;
+  padding: 12px 24px;
+  color: #07367d;
+  font-weight: bold;
+  border: 5px solid #07367d;
+  box-shadow: 0px 0px 0px 1px #fff;
+}
+
+.big_title{
+  font-size: 78px;
+    font-weight: bold;
+    color: #292d47;
+}
+.big_button{
+  background-color: #1c7aec;
+display: block;
+text-align: center;
+padding: 15px;
+color: #eee;
+box-shadow: 10px 10px;
+border-radius: 5px;
+}
+
+.icons{
+  font-size: 72px;
+color: #1c7aec;
+}
+.icons__title{
+  font-weight: bold;
+}
+
+.image__over h1 {
+    margin-left: -25%;
+    color: #ffffff;
+    background-color: #1c7aec;
+    padding: 50px;
+    box-shadow: 10px 10px #a3a3a3;
+}
