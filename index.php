@@ -64,7 +64,7 @@
 
       </div>
 
-<section>
+<section uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
   <div class="uk-container uk-container-large">
     <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
 
@@ -98,7 +98,7 @@
     </div>
   </div>
 </section>
-<section class="cta uk-padding">
+<section class="cta uk-padding"  uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
   <div class="uk-container uk-container-large">
     <div uk-grid>
       <div class="uk-width-1-2">
@@ -114,12 +114,12 @@
   <div class="uk-container uk-container-large">
     <div uk-grid>
       <div class="uk-width-1-2">
-<h1 class="big_title"> HERE WE WILL HAVE A BIG TITLE </h1>
-<h3 class="uk-margin-large-bottom"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h3>
-<a class="big_button" href="#"> Click HEre </a>
+<h1 class="big_title"  uk-scrollspy="cls: uk-animation-slide-left; delay:300;"> HERE WE WILL HAVE A BIG TITLE </h1>
+<h3 class="uk-margin-large-bottom" uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </h3>
+<a class="big_button" href="#" uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;"> Click HEre </a>
       </div>
       <div class="uk-width-1-2">
-            <div class="uk-card-header">
+            <div class="uk-card-header"  uk-scrollspy="cls: uk-animation-slide-right; delay:300;">
                 <div class="uk-grid-small uk-flex-middle" uk-grid>
                     <div class="uk-width-auto">
                       <div class="icons">
@@ -135,7 +135,7 @@
 
         </div>
 
-        <div class="uk-card-header">
+        <div class="uk-card-header"  uk-scrollspy="cls: uk-animation-slide-right; delay:300;">
             <div class="uk-grid-small uk-flex-middle" uk-grid>
                 <div class="uk-width-auto">
                   <div class="icons">
@@ -151,7 +151,7 @@
 
     </div>
 
-    <div class="uk-card-header">
+    <div class="uk-card-header"  uk-scrollspy="cls: uk-animation-slide-right; delay:300;">
         <div class="uk-grid-small uk-flex-middle" uk-grid>
             <div class="uk-width-auto">
               <div class="icons">
@@ -174,10 +174,10 @@
 <section class="uk-section">
 <div class="uk-container uk-container-large">
   <div class="uk-flex uk-flex-middle" uk-grid>
-    <div class="uk-width-1-2">
+    <div class="uk-width-1-2"  uk-scrollspy="cls: uk-animation-slide-left; delay:300;">
       <img src="img/slider.jpeg"  alt="">
     </div>
-    <div class="uk-width-1-2">
+    <div class="uk-width-1-2"  uk-scrollspy="cls: uk-animation-slide-right; delay:300;">
       <div class="image__over">
         <h1>  Lorem Ipsum is simply dummy text of the printing </h1>
       </div>
@@ -185,7 +185,143 @@
   </div>
 </div>
 </section>
+<section class="uk-section">
+  <div class="uk-container uk-container-large">
+    <h1><img src="img/blueicon.png" width="40" alt=""> Our Team </h1>
+  <div class="" uk-grid>
+    <div class="uk-width-1-4"   uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
+      <div class="uk-card team_card">
+        <img src="img/tm.png" width="100%" alt="">
+        <ul class="social_ul">
+          <li> <a class="social" href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+        <div class="uk-padding">
+          <h3> <b> Bola Naguib  </b> </h3>
+          <span> Web Developer </span>
+        </div>
 
+
+      </div>
+    </div>
+
+    <div class="uk-width-1-4"  uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
+      <div class="uk-card team_card">
+        <img src="img/tm.png" width="100%" alt="">
+        <ul class="social_ul">
+          <li> <a class="social" href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+        <div class="uk-padding">
+          <h3> <b> Bola Naguib  </b> </h3>
+          <span> Web Developer </span>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="uk-width-1-4" uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
+      <div class="uk-card team_card">
+        <img src="img/tm.png" width="100%" alt="">
+        <ul class="social_ul">
+          <li> <a class="social" href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+        <div class="uk-padding">
+          <h3> <b> Bola Naguib  </b> </h3>
+          <span> Web Developer </span>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="uk-width-1-4" uk-scrollspy="cls: uk-animation-slide-bottom; delay:300;">
+      <div class="uk-card team_card">
+        <img src="img/tm.png" width="100%" alt="">
+        <ul class="social_ul">
+          <li> <a class="social" href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-twitter-square"></i></a></li>
+          <li> <a class="social" href="#"><i class="fab fa-whatsapp-square"></i></a></li>
+        </ul>
+        <div class="uk-padding">
+          <h3> <b> Bola Naguib  </b> </h3>
+          <span> Web Developer </span>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+
+</section>
+<section class="footer uk-section">
+  <div class="uk-container uk-container-large">
+    <div class=""uk-grid>
+      <div class="uk-width-1-4">
+        <div class="footer__card">
+          <div class="footer__icon">
+            <i class="fas fa-dolly"></i>
+          </div>
+          <h3 class="footer_title"> Footer Title </h3>
+          <ul class="footer_ul">
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="uk-width-1-4">
+        <div class="footer__card">
+          <div class="footer__icon">
+            <i class="fas fa-dolly"></i>
+          </div>
+          <h3 class="footer_title"> Footer Title </h3>
+          <ul class="footer_ul">
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="uk-width-1-4">
+        <div class="footer__card">
+          <div class="footer__icon">
+            <i class="fas fa-dolly"></i>
+          </div>
+          <h3 class="footer_title"> Footer Title </h3>
+          <ul class="footer_ul">
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="uk-width-1-4">
+        <div class="footer__card">
+          <div class="footer__icon">
+            <i class="fas fa-dolly"></i>
+          </div>
+          <h3 class="footer_title"> Footer Title </h3>
+          <ul class="footer_ul">
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+            <li><a class="footer__link" href="#"> Footer Link </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
       <!-- UIkit JS -->
